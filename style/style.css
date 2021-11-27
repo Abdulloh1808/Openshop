@@ -1,7 +1,7 @@
 @import url(./fonts.css);
 
 .root {
-    --noto: 'NotoSans';
+    --noto: 'Noto';
     --black: #313131;
 }
 
@@ -30,6 +30,8 @@ ul {
 
 .logo::after {
     content: url(../images/logo1.png);
+    width: 187px;
+    height: 70px;
 }
 
 .header_top {
@@ -48,7 +50,7 @@ ul {
     display: flex;
     gap: 30px;
     align-items: center;
-    height: 50px;
+    /* height: 50px; */
 }
 
 .nav-link {
@@ -97,7 +99,7 @@ ul {
 .d-flex {
     max-width: 630px;
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
 }
 
 .btn {
@@ -186,7 +188,8 @@ ul {
 }
 
 .navbar-toggler{
-    border: none;
+    border: none; 
+    background-color: unset;
 }
 
 .navbar-toggler:focus {
@@ -203,6 +206,6 @@ ul {
     top: 0;
 }
 
-.navbar-toggler.collapsed .menu {
+.navbar-toggler.collapsed .menu{
     background-color: #313131;
 }
